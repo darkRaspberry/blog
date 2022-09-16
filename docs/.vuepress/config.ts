@@ -1,9 +1,9 @@
 import { defineUserConfig } from "vuepress";
 import { gungnirTheme } from "vuepress-theme-gungnir";
 
-
 export default defineUserConfig({
   title: 'darkRaspberry',
+  lang: "en-US",
   description: "I talk about tech or anything which connects to internet.",
 
 // Head elements and meta data
@@ -17,7 +17,7 @@ export default defineUserConfig({
     ["meta", { name: "theme-color", content: "#ffffff" }]
   ],
 
-
+  
   theme: gungnirTheme({
     repo: "darkRaspberry/blog",
     docsDir: "docs",
@@ -107,7 +107,7 @@ export default defineUserConfig({
         all: true
       },
       rss: {
-        siteURL: "https://darkrasp.ga/",
+        siteURL: "https://darkrasp.ga",
       },
       pwa: true,
       search: false

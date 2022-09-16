@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.49",
-    "oh-vue-icons": "1.0.0-rc3",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "vue": "^3.2.39",
     "vuepress": "2.0.0-beta.49",
     "vuepress-theme-gungnir": "^2.0.0-alpha.26"
   }
