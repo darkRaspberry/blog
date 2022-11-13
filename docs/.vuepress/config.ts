@@ -40,8 +40,8 @@ export default defineUserConfig({
     //Header Images
     homeHeaderImages: [
       {
-        path: "/img/home-bg/1.jpg",
-        mask: "rgba(40, 57, 101, .4)"
+        path: "/img/pages/homecard1.webp",
+        mask: "rgba(68, 74, 83, .4)"
       },
       {
         path: "/img/home-bg/2.jpg",
